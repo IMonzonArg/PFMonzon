@@ -15,7 +15,7 @@
 .navbar-brand
     font-weight: bold
 
-.botones !important
+.botones
     padding-right: 3% 
     padding-bottom: 3px
     text-decoration: none
@@ -64,21 +64,25 @@ aside.button a
 
 /* Style para mixin inicia */
 
-@mixin menu-bar !important
+@mixin positions ($border-radius, $bg-position, $bg-size, $height, $margin-bottom)
+    border-radius: $border-radius
+    background-position: $background-position
+    background-size: $background-size
+    height: $height
+    margin-bottom: $margin-bottom
+@mixin mixinh2 ($margin-bottom, $padding-right, $text-align, $text-decoration)
+@mixin derecha ($padding-top, $padding-left, $padding-right, $color)
+    
+    
 
 .left
-    background-image: url(./images/bar5.jpg)
-    border-radius: 20px
-    background-position: center
-    background-size: cover
-    height: 750px
-    margin-bottom: 5%
+    @include positions (20px, center, cover, 750px, 5%)
 
 .right h2
-    margin-bottom: 3%
-    padding-right: 10%
-    text-align: left
-    text-decoration: underline
+    @include mixinh2 (80%, 10%, left, none)
+
+.right
+    (5%, 50px, 50px, white)
 
 .right
     padding-top: 5%
