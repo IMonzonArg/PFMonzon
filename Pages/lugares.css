@@ -29,7 +29,6 @@ body {
   background-color: black;
 }
 
-/* Style para section1 comienza */
 /* Style para menu secundario inicia */
 h1 {
   text-align: center;
@@ -66,26 +65,31 @@ aside.button a {
 }
 
 /* Style para menu secundario termina */
-.aleft {
-  background-image: url(./images/bar2.jpg);
+/* Style para mixin inicia */
+.left {
+  background-image: url(./images/bar5.jpg);
   border-radius: 20px;
   background-position: center;
   background-size: cover;
   height: 750px;
   margin-bottom: 5%;
+}
+
+.right h2 {
   margin-bottom: 3%;
   padding-right: 10%;
   text-align: left;
   text-decoration: underline;
 }
-.aright {
+
+.right {
   padding-top: 5%;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
 
-.section1 ul {
+.section ul {
   list-style-type: none;
   -webkit-text-decoration: dotted;
           text-decoration: dotted;
@@ -93,16 +97,18 @@ aside.button a {
   padding-top: 3%;
 }
 
-.section1 ul li {
+.section ul li {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.section1 a {
+.section a {
   color: white;
   font-size: 25px;
 }
 
+/* Style para mixin termina */
+/* Style para section1 comienza */
 /* Style para section1 termina */
 /* Style para section2 comienza */
 .bleft {
