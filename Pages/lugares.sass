@@ -18,7 +18,7 @@
 .botones
     padding-right: 3% 
     padding-bottom: 3px
-    text-decoration: none
+    text-decoration: underline
     color: white
     font-size: 20px
 // Style para navbar, icono y link termina
@@ -62,55 +62,130 @@ aside.button a
 
 /* Style para menu secundario termina */
 
-/* Style para mixin inicia */
+/* Style para 1er imagen inicia */
 
-@mixin positions ($border-radius, $bg-position, $bg-size, $height, $margin-bottom)
-    border-radius: $border-radius
-    background-position: $background-position
-    background-size: $background-size
-    height: $height
-    margin-bottom: $margin-bottom
-@mixin mixinh2 ($margin-bottom, $padding-right, $text-align, $text-decoration)
-@mixin derecha ($padding-top, $padding-left, $padding-right, $color)
-    
-    
+.aleft
+    border-radius: 20px
+    background-position: center
+    background-size: cover
+    height: 750px
+    margin-bottom: 5%
 
-.left
-    @include positions (20px, center, cover, 750px, 5%)
+.primerImagen
+    background-image: url(./images/bar5.jpg)
 
-.right h2
-    @include mixinh2 (80%, 10%, left, none)
+/* Style para 1er imagen termina */
 
-.right
-    (5%, 50px, 50px, white)
+    /* Style para 1er seccion inicia */
 
-.right
+.aright h2
+    margin-bottom: 3%
+    padding-right: 10%
+    text-align: left
+    text-decoration: underline
+
+.aright
     padding-top: 5%
     padding-left: 50px
     padding-right: 50px
     color: white
 
-.section ul
+.section1 ul
     list-style-type: none
-    text-decoration: dotted
+    text-decoration: none
     padding-top: 3%
+    padding-left: 0px
 
-.section ul li
+.section1 ul li
     margin-top: 40px
     margin-bottom: 30px
 
-.section a
+.section1 a
     color: white
     font-size: 25px
 
-/* Style para mixin termina */
+    /* Style para 1er seccion termina */
 
-/* Style para section comienza */
+    /* Style para 2da imagen inicia */
 
-.section
-    @include menu-bar
+.bleft
+    @extend .aleft
+    background-image: url(./images/bar3.jpg)
 
-/* Style para section termina */
+    /* Style para 2da imagen termina */
+
+    /* Style para 2da seccion inicia */
+
+.bright h2
+    margin-bottom: 3%
+    padding-right: 10%
+    text-align: left
+    text-decoration: underline
+
+.bright
+    @extend .aright
+
+.section2 ul
+    list-style-type: none
+    text-decoration: none
+    padding-top: 3%
+    padding-left: 0px
+
+.section2 ul li
+    margin-top: 40px
+    margin-bottom: 30px
+
+.section2 a
+    color: white
+    font-size: 25px
+
+    /* Style para 2da seccion termina */
+
+.cleft
+    @extend .aleft
+    background-image: url(./images/bar2.jpg)
+
+    /* Style para 2da seccion inicia */
+
+.cright h2
+    margin-bottom: 3%
+    padding-right: 10%
+    text-align: left
+    text-decoration: underline
+
+.cright
+    @extend .aright
+
+.section3 ul
+    list-style-type: none
+    text-decoration: none
+    padding-top: 3%
+    padding-left: 0px
+
+.section3 ul li
+    margin-top: 40px
+    margin-bottom: 30px
+
+.section3 a
+    color: white
+    font-size: 25px
+
+    /* Style para 2da seccion termina */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Footer inicia
 .mb-4
