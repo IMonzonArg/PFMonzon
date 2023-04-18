@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Serif:opsz@8..144&display=swap");
+* {
+  font-family: "Roboto Serif", serif;
+}
+
+.Header img {
+  height: 60px;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.lugares {
+  padding-right: 38px !important;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+/* Style para section1 comienza */
+/* Style para menu secundario inicia */
+h1 {
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  font-size: 45px;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.13), rgb(0, 0, 0)), url(../Assets/images/tragos.jpg);
+  background-position: 20% 28%;
+  background-size: cover;
+  padding: 12%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
+
+aside.button {
+  text-align: center;
+}
+
+aside.button a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+}
+
+.msecundario {
+  margin-top: 4%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+/* Style para menu secundario termina */
+.aleft {
+  background-image: url(./images/bar2.jpg);
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  margin-bottom: 5%;
+}
+
+.aright {
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.aright h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.section1 ul {
+  list-style-type: none;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  padding-left: 0 !important;
+  padding-top: 3%;
+}
+
+.section1 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.section1 a {
+  color: white;
+  font-size: 25px;
+}
+
+/* Style para section1 termina */
+/* Style para section2 comienza */
+.bleft {
+  background-image: url(./images/bar3.jpg);
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  margin-bottom: 5%;
+}
+
+.bright h2 {
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.bright {
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.section2 ul {
+  list-style-type: none;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  padding-left: 0 !important;
+  padding-top: 3%;
+}
+
+.section2 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.section2 a {
+  color: white;
+  font-size: 25px;
+}
+
+/* Style para section2 termina */
+/* Style para section3 comienza */
+.cleft {
+  background-image: url(./images/bar5.jpg);
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  margin-bottom: 5%;
+}
+
+.cright h2 {
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.cright {
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.section3 ul {
+  list-style-type: none;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  padding-left: 0 !important;
+  padding-top: 3%;
+}
+
+.section3 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.section3 a {
+  color: white;
+  font-size: 25px;
+}
+
+/* Style para section3 termina *//*# sourceMappingURL=lugares.css.map */
