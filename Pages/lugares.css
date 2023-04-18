@@ -73,19 +73,16 @@ aside.button a {
   background-size: cover;
   height: 750px;
   margin-bottom: 5%;
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
 }
-
 .aright {
   padding-top: 5%;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
-}
-
-.aright h2 {
-  text-align: left;
-  margin-bottom: 30px;
-  text-decoration: underline;
 }
 
 .section1 ul {
