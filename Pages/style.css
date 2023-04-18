@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 
-.lugares {
+.botones {
   padding-right: 3% !important;
   padding-bottom: 3px;
   text-decoration: none;
@@ -118,5 +118,5 @@ body {
 }
 
 .text-center {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.76);
 }/*# sourceMappingURL=style.css.map */

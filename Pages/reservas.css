@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Serif:opsz@8..144&display=swap");
+* {
+  font-family: "Roboto Serif", serif;
+}
+
+.Header img {
+  height: 60px;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.botones {
+  padding-right: 3% !important;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=reservas.css.map */
