@@ -28,15 +28,19 @@ body
 
 /* Style para menu secundario inicia */
 
+
+$imagen-fondo: url('./images/tragos.jpg')
+
 h1
     text-align: center
     text-shadow: 0 0 10px white
     font-size: 45px
-    background-image: linear-gradient rgba(0, 0, 0, 0.913), url(./images/tragos.jpg)
-    background-image: 
-    background-position: 20% 28%
+    background-image: $imagen-fondo
+    background-image: linear-gradient(to top, #000000, #00000000, #000000,), $imagen-fondo
     background-size: cover
-    padding: 12%
+    background-position: center
+    background-position: 20% 28%
+    padding: 18%
     border-bottom-right-radius: 20px
     border-bottom-left-radius: 20px
     color: white

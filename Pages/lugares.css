@@ -35,11 +35,12 @@ h1 {
   text-align: center;
   text-shadow: 0 0 10px white;
   font-size: 45px;
-  background-image: url(./images/tragos.jpg);
-  background-image: linear-gradient rgb(0, 0, 0);
-  background-position: 20% 28%;
+  background-image: url("./images/tragos.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0), #000000), url("./images/tragos.jpg");
   background-size: cover;
-  padding: 12%;
+  background-position: center;
+  background-position: 20% 28%;
+  padding: 18%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   color: white;

@@ -28,16 +28,26 @@ body
     color: white
 
 // Style para jumbotron inicia
-.jumbotron
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.089), rgb(0, 0, 0)), url(../Assets/images/buenpa.jpg)
-    background-position: 20% 20%
-    font-size: 30px
+$imagen-fondo: url('./images/buenpa.jpg')
+
+.jumbotron 
+    background-image: $imagen-fondo
+    background-image: linear-gradient(to top, #000000, #00000000, #000000,), $imagen-fondo
     background-size: cover
-    padding: 15%
+    background-position: center
+    font-size: 25px
+    padding: 22%
     border-bottom-right-radius: 20px
     border-bottom-left-radius: 20px
     text-shadow: 0 0 10px #000
     color: white
+
+
+.jumbotron
+    h1
+        font-size: 50px
+
+
 // Style para jumbotron termina
 
 .container-fluid
