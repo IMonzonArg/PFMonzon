@@ -29,7 +29,7 @@ body {
   background-color: black;
 }
 
-/* Style para menu secundario inicia */
+/* Style para jumbotron inicia */
 h1 {
   text-align: center;
   text-shadow: 0 0 10px white;
@@ -97,7 +97,6 @@ aside.button a {
 
 .section1 ul {
   list-style-type: none;
-  text-decoration: none;
   padding-top: 3%;
   padding-left: 0px;
 }
@@ -143,11 +142,13 @@ aside.button a {
   color: white;
   font-size: 25px;
   /* Style para 2da seccion termina */
+  /* Style para 3era imagen inicia */
 }
 
 .cleft {
   background-image: url(./images/bar2.jpg);
-  /* Style para 2da seccion inicia */
+  /* Style para 3era imagen termina */
+  /* Style para 3ra seccion inicia */
 }
 
 .cright h2 {
@@ -172,7 +173,7 @@ aside.button a {
 .section3 a {
   color: white;
   font-size: 25px;
-  /* Style para 2da seccion termina */
+  /* Style para 3ra seccion termina */
 }
 
 .mb-4 {

@@ -28,4 +28,12 @@
 body {
   background-color: black;
   color: white;
+}
+
+.mb-4 {
+  margin-bottom: 5px;
+}
+
+.text-center {
+  background-color: rgba(0, 0, 0, 0.76);
 }/*# sourceMappingURL=nosotros.css.map */
