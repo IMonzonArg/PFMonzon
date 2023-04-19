@@ -30,6 +30,46 @@ body {
   color: white;
 }
 
+.jumbotron {
+  background-image: url("./images/catedral.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("./images/catedral.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+  padding: 22%;
+  border-radius: 20px;
+  text-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.formulario {
+  margin-bottom: 6%;
+}
+
 .mb-4 {
   margin-bottom: 5px;
 }

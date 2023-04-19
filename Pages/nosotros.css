@@ -30,6 +30,36 @@ body {
   color: white;
 }
 
+.jumbotron {
+  background-image: url("./images/Plaza_San_Martin.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("./images/Plaza_San_Martin.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+  padding: 22%;
+  border-radius: 20px;
+  text-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+.equipo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 60%;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+.parrafo {
+  margin-bottom: 3%;
+}
+
 .mb-4 {
   margin-bottom: 5px;
 }
