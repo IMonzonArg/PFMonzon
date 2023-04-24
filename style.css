@@ -34,19 +34,20 @@ body {
   color: white;
 }
 
-.encabezado1 {
-  background-image: url("../Assets/images/bar1.jpg");
-  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000);
+.jumbotron1 {
+  background-image: url(buenpa);
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0), #000000);
   background-size: cover;
   background-position: center;
-  font-size: 50px;
+  font-size: 25px;
   padding: 22%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   text-shadow: 0 0 10px #000;
+  color: white;
 }
 
-.encabezado1 h1 {
+.jumbotron h1 {
   font-size: 50px;
 }
 
@@ -156,8 +157,8 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../Assets/");
-  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("../Assets/");
+  background-image: url("./images/catedral.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("./images/catedral.jpg");
   background-size: cover;
   background-position: center;
   font-size: 25px;
