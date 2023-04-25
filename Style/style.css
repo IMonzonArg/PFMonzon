@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Serif:opsz@8..144&display=swap");
+* {
+  font-family: "Roboto Serif", serif;
+}
+
+.Header img {
+  height: 60px;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.botones {
+  padding-right: 3% !important;
+  padding-bottom: 3px;
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.jumbotron1 {
+  background-image: url("../images/buenpa.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0), #000000), url("../images/buenpa.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  font-size: 25px;
+  padding: 22%;
+  color: white;
+}
+
+.jumbotron1 h1 {
+  font-size: 50px;
+}
+
+.presentacion1 {
+  margin-bottom: 40px;
+}
+
+.presentacion1 p {
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+
+.presentacion1 h2 {
+  padding-left: 1%;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.aleft {
+  background-image: url("../images/bar1.jpg");
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+}
+
+.aright h2 {
+  text-align: center;
+  margin-bottom: 10%;
+  padding-right: 10%;
+}
+
+.aright {
+  padding-top: 13%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section1a {
+  margin-top: 7%;
+}
+
+.aaright {
+  background-image: url("../images/bar2.jpg");
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 570px;
+  margin-bottom: 3%;
+}
+
+.aaleft h2 {
+  text-align: center;
+  margin-bottom: 10%;
+  padding-right: 15%;
+}
+
+.aaleft {
+  text-align: left;
+  padding-top: 9%;
+  padding-left: 30px;
+}
+
+.mb-4 {
+  margin-bottom: 5px;
+}
+
+.text-center {
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+/* Style para jumbotron inicia */
+.jumbotronLugares {
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  font-size: 50px;
+  background-image: url("../images/tragos.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0), #000000), url("../images/tragos.jpg");
+  background-size: cover;
+  height: 800px;
+  background-position: 20% 28%;
+  padding: 22%;
+  color: white;
+}
+
+aside.button {
+  text-align: center;
+}
+
+aside.button a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+}
+
+.msecundario {
+  margin-top: 4%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+/* Style para menu secundario termina */
+/* Style para 1er imagen inicia */
+.bar1Left, .bar3Left, .bar2Left {
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  margin-bottom: 5%;
+}
+
+.primerImagen {
+  background-image: url(../images/bar5.jpg);
+}
+
+/* Style para 1er imagen termina */
+ *
+ *  /* Style para 1er seccion inicia */
+.bar1Right h2, .bar3Right h2, .bar2Right h2 {
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.bar1Right, .bar3Right, .bar2Right {
+  padding-top: 5%;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.bar1 ul {
+  list-style-type: none;
+  padding-top: 3%;
+  padding-left: 0px;
+}
+
+.bar1 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.bar1 a {
+  color: white;
+  font-size: 25px;
+  /* Style para 1er seccion termina */
+  /* Style para 2da imagen inicia */
+}
+
+.bar2Left {
+  background-image: url(../images/bar3.jpg);
+  /* Style para 2da imagen termina */
+  /* Style para 2da seccion inicia */
+}
+
+.bar2Right h2 {
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.bar2 ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 3%;
+  padding-left: 0px;
+}
+
+.bar2 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.bar2 a {
+  color: white;
+  font-size: 25px;
+  /* Style para 2da seccion termina */
+  /* Style para 3era imagen inicia */
+}
+
+.bar3Left {
+  background-image: url(../images/bar2.jpg);
+  /* Style para 3era imagen termina */
+  /* Style para 3ra seccion inicia */
+}
+
+.bar3Right h2 {
+  margin-bottom: 3%;
+  padding-right: 10%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.bar3 ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 3%;
+  padding-left: 0px;
+}
+
+.bar3 ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.bar3 a {
+  color: white;
+  font-size: 25px;
+  /* Style para 3ra seccion termina */
+}
+
+.mb-4 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.text-center {
+  background-color: rgba(0, 0, 0, 0.973);
+}
+
+.jumbotronReservas {
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  font-size: 50px;
+  background-image: url("../images/laCanada.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0), #000000), url("../images/laCanada.jpg");
+  background-size: cover;
+  height: 800px;
+  background-position: 20% 28%;
+  padding: 22%;
+  color: white;
+}
+
+.jumbotronReservas h1 {
+  margin-bottom: 22%;
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+.section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.leftReservas {
+  padding-left: 0;
+}
+
+.leftReservas h2 {
+  text-align: center;
+}
+
+.leftReservas img {
+  width: 98%;
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 40px;
+}
+
+.rightReservas {
+  padding-left: 5%;
+}
+
+.rightReservas h2 {
+  margin-bottom: 20%;
+  text-align: center;
+}
+
+.rightReservas ul {
+  color: white;
+  list-style-type: none;
+}
+
+.rightReservas ul li {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.rightReservas a {
+  color: white;
+  font-size: 25px;
+}
+
+.reservasP {
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+}
+
+.jumbotronNosotros {
+  background-image: url("../images/Plaza_San_Martin.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("../images/Plaza_San_Martin.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+  padding: 22%;
+  border-radius: 20px;
+  text-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.jumbotronNosotros h1 {
+  font-size: 50px;
+  margin-left: 38%;
+  margin-bottom: 5%;
+}
+
+.equipo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 60%;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+.parrafoNosotros {
+  margin-bottom: 3%;
+}
+
+.jumbotronContacto {
+  background-image: url("../images/catedral.jpg");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("../images/catedral.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+  padding: 20%;
+  border-radius: 20px;
+  text-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.jumbotronContacto h1 {
+  font-size: 50px;
+  margin-left: 34%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.formularioContacto h2 {
+  margin-top: 5%;
+}
+
+.formularioContacto ul li {
+  margin-bottom: 10px;
+}
+
+.formularioContacto p {
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.formulario {
+  margin-bottom: 6%;
+}/*# sourceMappingURL=style.css.map */
