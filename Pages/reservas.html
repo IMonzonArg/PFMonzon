@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="establecimiento, carta de reserva, formulario, instagram, whatsapp, reserva, bar, salidas, nueva cordoba, Güemes">
-        <meta name="author" content="Ignacio Monzon">
-        <meta name="title" content="Saboreando Cordoba - Tourism and reserves website">
-        <meta name="city" content="cordoba">
-        <meta name="country" content="argentina">
-        <meta name="distribution" content="global">
-        <meta name="doc-type" content="web page">
-        <meta name="revisit-after" content="3 days">
-        <meta name="description" content="Canales de reserva de bares">
-        <title>Saboreando Córdoba</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-        <link rel="stylesheet" href="../Style/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    </head>
-    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="establecimiento, carta de reserva, formulario, instagram, whatsapp, reserva, bar, salidas, nueva cordoba, Güemes">
+    <meta name="author" content="Ignacio Monzon">
+    <meta name="title" content="Saboreando Cordoba - Tourism and reserves website">
+    <meta name="city" content="cordoba">
+    <meta name="country" content="argentina">
+    <meta name="distribution" content="global">
+    <meta name="doc-type" content="web page">
+    <meta name="revisit-after" content="3 days">
+    <meta name="description" content="Canales de reserva de bares">
+    <title>Saboreando Córdoba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
 <!-- Navbar inicia -->
 
 <body>
     <header class="Header">
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand animate__animated animate__slideInLeft" href="../index.html">
+                <img class="logo" src="../images/Logocordoba.ico" alt="logo de Cordoba">Saboreando Córdoba</a>
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img class="logo" src="../images/Logocordoba.ico" alt="logo de Cordoba">Saboreando Córdoba</a>
-                <a class="botones" href="./lugares.html">Lugares y puntos gastronómicos</a>
-                <a class="botones" href="./reservas.html">Reservas</a>
-                <a class="botones" href="./nosotros.html">Nosotros</a>
-                <a class="botones" href="./contactanos.html">Contactanos</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown" href="../Pages/lugares.html">Lugares</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown" href="../Pages/reservas.html">Reservas</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown" href="../Pages/nosotros.html">Nosotros</a>
+                <a class="botones justify-content-center animate__animated animate__slideInRight" href="../Pages/contactanos.html">Contacto</a>
             </div>
         </nav>
     </header>
 
     <!-- Navbar termina -->
-    
-    
-        <!-- Jumbotron inicia -->
 
-    <div class="jumbotronReservas">
+
+
+    <!-- Jumbotron inicia -->
+
+    <div class="jumbotronReservas animate__animated animate__fadeIn">
         <h1>Reservá tu lugar</h1>
     </div>
 
-        <!-- Jumbotron termina -->
-
+    <!-- Jumbotron termina -->
+    <section class="main">
         <!-- Reservas inicia -->
         <section class="section">
             <div class="container-fluid">
@@ -57,9 +61,9 @@
                     <aside class="rightReservas col-md-6">
                         <h2>Canales habilitados</h2>
                         <ul>
-                            <li><a href="#" role="button">Instagram</a></li>
-                            <li></li><a href="#" role="button">Whatsapp</a></li>
-                            <li></li><a href="#" role="button">Formulario de reserva</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank" role="button">Instagram</a></li>
+                            <li><a href="https://ititaly.com.ar/reservas/" target="_blank" role="button">Formulario de reserva</a></li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=543513327449&text&type=phone_number&app_absent=0" target="_blank" role="button">Whatsapp</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -67,24 +71,32 @@
         </section>
 
         <div class="reservasP">
-            <P>Podrás hacer tu reserva mediante los canales habilitados. En caso de no contar con el medio de comunicación, veras la opcion de color gris. En caso positivo, te redireccionaremos a la red social o formulario de reserva correspondiente.</P>
+            <P>Podrás hacer tu reserva mediante los canales habilitados. En caso de no contar con el medio de
+                comunicación, veras la opcion de color gris. En caso positivo, te redireccionaremos a la red social/chat de Whatsapp o
+                formulario de reserva correspondiente.</P>
         </div>
         <!-- Reservas termina -->
 
+    </section>
 
+<!-- Fixed button -->
+<a class="fixedButton" href="#">
+    <div class="roundedFixedBtn"><i class="fa-sharp fa-solid fa-arrow-up"></i></div>
+</a>
+<!-- Fixed button -->
 
     <!-- Footer inicia -->
 
     <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
             <section class="mb-4">
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="_blank" role="button"><i
                         class="fab fa-facebook-f"></i></a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" target="_blank" role="button"><i
                         class="fab fa-twitter"></i></a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank" role="button"><i
                         class="fab fa-instagram"></i></a>
             </section>
         </div>

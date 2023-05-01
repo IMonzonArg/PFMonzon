@@ -17,6 +17,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
@@ -24,14 +27,18 @@
 
 <body>
     <header class="Header">
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand animate__animated animate__slideInLeft" href="index.html">
+                <img class="logo" src="./images/Logocordoba.ico" alt="logo de Cordoba">Saboreando Córdoba</a>
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo" src="./images/Logocordoba.ico" alt="logo de Cordoba">Saboreando Córdoba</a>
-                <a class="botones" href="./Pages/lugares.html">Lugares y puntos gastronómicos</a>
-                <a class="botones" href="./Pages/reservas.html">Reservas</a>
-                <a class="botones" href="./Pages/nosotros.html">Nosotros</a>
-                <a class="botones" href="./Pages/contactanos.html">Contactanos</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown"
+                    href="./Pages/lugares.html">Lugares</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown"
+                    href="./Pages/reservas.html">Reservas</a>
+                <a class="botones justify-content-center animate__animated animate__slideInDown"
+                    href="./Pages/nosotros.html">Nosotros</a>
+                <a class="botones justify-content-center animate__animated animate__slideInRight"
+                    href="./Pages/contactanos.html">Contacto</a>
             </div>
         </nav>
     </header>
@@ -41,64 +48,85 @@
 
     <!-- Jumbotron inicia -->
 
-    <section class="jumbotron1">
+    <section class="jumbotron1 animate__animated animate__fadeIn">
         <h1>Tu guía gastronómica en Córdoba</h1>
-        <p>Aca vas a encontrar lugares para desayunos, meriendas, brunchs, happy hours, almuerzos, cenas, etc!</p>
+        <p>Un índice de lugares para desayunos, almuerzos, meriendas, cenas, brunchs, happy hours, etc!</p>
     </section>
 
     <!-- Jumbotron termina -->
 
     <!-- Presentacion inicia -->
+    <section class="main">
+        <section class="presentacion1">
+            <h2>
+                Bienvenido!
+            </h2>
+            <p>Si llegaste hasta acá, es porque probablemente estés buscando un lugar para comer, celebrar o tomar algo.
+                Chequea nuestra guía y seguramente encuentres lo que estás buscando. Tenes lugares para cualquier
+                ocasión o momento del día, pero sentite libre de enviarnos tu aporte o comentario mediante nuestro
+                formulario en la última página</p>
+        </section>
 
-    <section class="presentacion1">
-        <h2>
-            Bienvenido!
-        </h2>
-        <p>Si estas acá, es porque probablemente estés buscando un lugar para comer o tomar algo, somos tu solucion 🤤</p>
-    </section>
+        <!-- Presentancion termina-->
 
-    <!-- Presentancion termina-->
-
-    <!-- Section inicia -->
-    <section class="section1">
-        <div class="container-fluid">
-            <div class="row">
-                <aside class="aleft col-md-6"></aside>
-                <aside class="aright col-md-6">
-                    <h2>¿Que es Saboreando Córdoba?</h2>
-                    <p> Somos un sitio de difusión y reservas de puntos gastronómicos, como bares, restaurantes, resto bar, pubs, birrerias, etc! E</p>
-                </aside>
+        <!-- Section inicia -->
+        <section class="section1">
+            <div class="container-fluid">
+                <div class="row">
+                    <aside class="aleft col-lg-6">
+                        <img src="../images/Bar1.jpg" alt="Bar de Cordoba Capital" class="img-fluid">
+                    </aside>
+                    <aside class="aright col-lg-6">
+                        <h2>¿Que es Saboreando Córdoba?</h2>
+                        <p> Somos un sitio de difusión y reservas de mesas en puntos gastronómicos como bares,
+                            restaurantes, entre otros. La idea del sitio es dar a conocer la enorme variedad de lugares
+                            y espacios con los que cuenta nuestra querida Córdoba</p>
+                    </aside>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="section1a">
+            <div class="container-fluid">
+                <div class="row">
+                    <aside class="aaleft col-lg-6">
+                        <h2>¿Que vas a encontrar acá?</h2>
+                        <p>Contamos con índice con los diferentes lugares (divididos en diferentes categorías) y sus
+                            respectivas redes o formularios de reserva, esperamos que lo disfrutes tanto como nosotros!
+                        </p>
+                    </aside>
+                    <aside class="aaright col-lg-6">
+                        <img src="../images/Bar2.jpg" alt="Bar de Cordoba Capital" class="img-fluid">
+                    </aside>
+                </div>
+            </div>
+        </section>
     </section>
 
-    <section class="section1a">
-        <div class="container-fluid">
-            <div class="row">
-                <aside class="aaleft col-md-6">
-                    <h2>¿Que vas a encontrar acá?</h2>
-                    <p>En este sitio encontrarás un índice con los diferentes lugares (divididos en diferentes categorías) y sus respectivas redes o formularios de reserva, esperamos que disfrutes Córdoba tanto como nosotros!</p>
-                </aside>
-                <aside class="aaright col-md-6"></aside>
-            </div>
-        </div>
-    </section>
 
     <!-- Section termina -->
+
+
+
+    <!-- Fixed button -->
+    <a class="fixedButton" href="#">
+        <div class="roundedFixedBtn"><i class="fa-sharp fa-solid fa-arrow-up"></i></div>
+    </a>
+    <!-- Fixed button -->
 
     <!-- Footer inicia -->
 
     <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
             <section class="mb-4">
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" target="_blank"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
-                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" target="_blank"
+                    role="button"><i class="fab fa-twitter"></i></a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i
-                        class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" target="_blank"
+                    role="button"><i class="fab fa-instagram"></i></a>
             </section>
         </div>
 
