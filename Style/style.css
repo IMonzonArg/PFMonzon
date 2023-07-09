@@ -79,6 +79,11 @@
   cursor: pointer;
 }
 
+#reservasBackground {
+  background-attachment: cover;
+  height: 100%;
+}
+
 body {
   background-color: black;
   color: white;
@@ -273,18 +278,18 @@ aside.button a {
   font-size: 20px;
 }
 
-.bar1 ul {
+.styleBar1 ul {
   list-style-type: none;
   padding-top: 3%;
   padding-left: 0px;
 }
 
-.bar1 ul li {
+.styleBar1 ul li {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.bar1 a {
+.styleBar1 a {
   color: white;
   font-size: 25px;
   /* Style para 1er seccion termina */
@@ -311,19 +316,19 @@ aside.button a {
   font-size: 20px;
 }
 
-.bar2 ul {
+.styleBar2 ul {
   list-style-type: none;
   text-decoration: none;
   padding-top: 3%;
   padding-left: 0px;
 }
 
-.bar2 ul li {
+.styleBar2 ul li {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.bar2 a {
+.styleBar2 a {
   color: white;
   font-size: 25px;
   /* Style para 2da seccion termina */
@@ -350,19 +355,19 @@ aside.button a {
   font-size: 20px;
 }
 
-.bar3 ul {
+.styleBar3 ul {
   list-style-type: none;
   text-decoration: none;
   padding-top: 3%;
   padding-left: 0px;
 }
 
-.bar3 ul li {
+.styleBar3 ul li {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.bar3 a {
+.styleBar3 a {
   color: white;
   font-size: 25px;
   /* Style para 3ra seccion termina */
@@ -466,6 +471,53 @@ aside.button a {
   font-size: 20px;
 }
 
+#seleccionBar {
+  width: 13%;
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+.contenedor-categorias {
+  display: flex;
+  text-align: center;
+  box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.984);
+  margin-top: 9%;
+}
+
+.categoria {
+  flex: 1;
+  text-shadow: 1px 5px 5px black;
+  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.7411764706), #000000);
+  color: white;
+}
+
+#cuentaDom {
+  margin-top: 5%;
+  margin-left: 26%;
+  text-shadow: 1px 5px 5px black;
+  color: rgb(228, 218, 111);
+  background-color: rgba(0, 0, 0, 0.824);
+  border: none;
+  box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.824);
+  text-align: center;
+  padding-top: 3%;
+}
+
+.reservaDatos {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.inputsReserva {
+  width: 70%;
+  padding-left: 30%;
+}
+
+#botonGuardado {
+  margin-left: 47%;
+  margin-bottom: 5%;
+}
+
 .jumbotronNosotros {
   background-image: url("../images/Plaza_San_Martin.jpg");
   background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.3882352941), #000000), url("../images/Plaza_San_Martin.jpg");
@@ -543,6 +595,8 @@ aside.button a {
 .formulario {
   padding-bottom: 6%;
   font-size: 20px;
+  width: 70%;
+  padding-left: 30%;
 }
 
 .enviarF {

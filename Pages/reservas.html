@@ -49,32 +49,53 @@
     </div>
 
     <!-- Jumbotron termina -->
-    <section class="main">
+    <section class="main" id="reservasBackground">
         <!-- Reservas inicia -->
-        <section class="section">
-            <div class="container-fluid">
-                <div class="row">
-                    <aside class="leftReservas col-md-6">
-                        <h2>Nombre del establecimiento</h2>
-                        <img src="../images/Bar6.jpg" alt="Bar de Cordoba Capital" class="img-fluid">
-                    </aside>
-                    <aside class="rightReservas col-md-6">
-                        <h2>Canales habilitados</h2>
-                        <ul>
-                            <li><a href="https://www.instagram.com/" target="_blank" role="button">Instagram</a></li>
-                            <li><a href="https://ititaly.com.ar/reservas/" target="_blank" role="button">Formulario de reserva</a></li>
-                            <li><a href="https://api.whatsapp.com/send/?phone=543513327449&text&type=phone_number&app_absent=0" target="_blank" role="button">Whatsapp</a></li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-        </section>
+        <select id="seleccionBar" class="form-select" aria-label="Floating label select example">
+            <option selected>Elegi tu bar</option>
+            <option value="cartaBar1">Random Bar</option>
+            <option value="cartaBar2">Santa Calma Bar</option>
+            <option value="cartaBar3">Cochera Bar</option>
+        </select>
+
+        <div id="menuBares"></div>
+
+        <textarea id="cuentaDom" rows="15" cols="80" readonly></textarea>
 
         <div class="reservasP">
             <P>Podrás hacer tu reserva mediante los canales habilitados. En caso de no contar con el medio de
                 comunicación, veras la opcion de color gris. En caso positivo, te redireccionaremos a la red social/chat de Whatsapp o
                 formulario de reserva correspondiente.</P>
         </div>
+
+        <div class="reservaDatos">
+        <h3>Datos de reserva</h3>
+        <p>Es importante que completes tus datos luego de haber realizado tu pedido.</p>
+        </div>
+        <!-- Nombre y apellido -->
+        <div class="input-group mb-3 inputsReserva">
+            <span class="input-group-text" id="inputGroup-sizing-default">Nombre y apellido</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" id="datosClienteInput">
+        </div>
+
+        <!-- Cantidad de comensales -->
+        <div class="input-group mb-3 inputsReserva">
+            <span class="input-group-text" id="inputGroup-sizing-default">Cantidad de comensales</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" id="cantidadComensalesInput">
+        </div>
+
+        <!-- Horario de reserva -->
+        <div class="input-group mb-3 inputsReserva">
+            <span class="input-group-text" id="inputGroup-sizing-default">Horario de reserva (formato 00:00)</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" id="horarioReservaInput">
+        </div>
+
+        <button id="botonGuardado">Guardar</button>
+    </section>
+    
         <!-- Reservas termina -->
 
     </section>
@@ -106,9 +127,11 @@
 
     <!-- Footer termina -->
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
 </body>
 
 

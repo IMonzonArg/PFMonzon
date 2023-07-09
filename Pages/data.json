@@ -1,0 +1,413 @@
+{
+    "cartaBar1": [
+        {
+            "categoria": "Bebidas",
+            "productos": [
+                {
+                    "ID": 10,
+                    "nombre": "Pinta",
+                    "precio": 800
+                },
+                {
+                    "ID": 11,
+                    "nombre": "Gaseosa/agua saborizada",
+                    "precio": 500
+                },
+                {
+                    "ID": 12,
+                    "nombre": "Tragos",
+                    "precio": 1000
+                },
+                {
+                    "ID": 13,
+                    "nombre": "Stella",
+                    "precio": 1400
+                },
+                {
+                    "ID": 15,
+                    "nombre": "Andes",
+                    "precio": 1600
+                },
+                {
+                    "ID": 16,
+                    "nombre": "Heineken",
+                    "precio": 1500
+                },
+                {
+                    "ID": 17,
+                    "nombre": "Patagonia",
+                    "precio": 1400
+                },
+                {
+                    "ID": 18,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Entradas",
+            "productos": [
+                {
+                    "ID": 19,
+                    "nombre": "Papas con cheddar y panceta",
+                    "precio": 1400
+                },
+                {
+                    "ID": 20,
+                    "nombre": "Rabas",
+                    "precio": 1800
+                },
+                {
+                    "ID": 21,
+                    "nombre": "Papas clásicas",
+                    "precio": 1200
+                },
+                {
+                    "ID": 22,
+                    "nombre": "Tabla de fiambres",
+                    "precio": 2000
+                },
+                {
+                    "ID": 23,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Plato principal",
+            "productos": [
+                {
+                    "ID": 30,
+                    "nombre": "Hamburguesa",
+                    "precio": 2000
+                },
+                {
+                    "ID": 31,
+                    "nombre": "Lomito",
+                    "precio": 2200
+                },
+                {
+                    "ID": 32,
+                    "nombre": "Pizzas",
+                    "precio": 1800
+                },
+                {
+                    "ID": 33,
+                    "nombre": "Plato gourmet",
+                    "precio": 2500
+                },
+                {
+                    "ID": 34,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Postres",
+            "productos": [
+                {
+                    "ID": 35,
+                    "nombre": "Chocotorta",
+                    "precio": 1000
+                },
+                {
+                    "ID": 36,
+                    "nombre": "Cheesecake",
+                    "precio": 1100
+                },
+                {
+                    "ID": 37,
+                    "nombre": "Flan",
+                    "precio": 1200
+                },
+                {
+                    "ID": 38,
+                    "nombre": "Helado",
+                    "precio": 800
+                },
+                {
+                    "ID": 39,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        }
+    ],
+    "cartaBar2": [
+        {
+            "categoria": "Bebidas",
+            "productos": [
+                {
+                    "ID": 110,
+                    "nombre": "Pinta",
+                    "precio": 1000
+                },
+                {
+                    "ID": 111,
+                    "nombre": "Gaseosa/agua saborizada",
+                    "precio": 700
+                },
+                {
+                    "ID": 112,
+                    "nombre": "Tragos",
+                    "precio": 1200
+                },
+                {
+                    "ID": 113,
+                    "nombre": "Stella",
+                    "precio": 1500
+                },
+                {
+                    "ID": 115,
+                    "nombre": "Andres",
+                    "precio": 1700
+                },
+                {
+                    "ID": 116,
+                    "nombre": "Heineken",
+                    "precio": 1600
+                },
+                {
+                    "ID": 117,
+                    "nombre": "Patagonia",
+                    "precio": 1500
+                },
+                {
+                    "ID": 118,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Entradas",
+            "productos": [
+                {
+                    "ID": 119,
+                    "nombre": "Papas con cheddar y panceta",
+                    "precio": 1400
+                },
+                {
+                    "ID": 120,
+                    "nombre": "Rabas",
+                    "precio": 1700
+                },
+                {
+                    "ID": 121,
+                    "nombre": "Papas clásicas",
+                    "precio": 1400
+                },
+                {
+                    "ID": 122,
+                    "nombre": "Tabla de fiambres",
+                    "precio": 2200
+                },
+                {
+                    "ID": 123,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Plato principal",
+            "productos": [
+                {
+                    "ID": 130,
+                    "nombre": "Hamburguesa",
+                    "precio": 2200
+                },
+                {
+                    "ID": 131,
+                    "nombre": "Lomito",
+                    "precio": 2400
+                },
+                {
+                    "ID": 132,
+                    "nombre": "Pizzas",
+                    "precio": 2000
+                },
+                {
+                    "ID": 133,
+                    "nombre": "Plato gourmet",
+                    "precio": 2700
+                },
+                {
+                    "ID": 134,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Postres",
+            "productos": [
+                {
+                    "ID": 135,
+                    "nombre": "Chocotorta",
+                    "precio": 1200
+                },
+                {
+                    "ID": 136,
+                    "nombre": "Cheesecake",
+                    "precio": 1300
+                },
+                {
+                    "ID": 137,
+                    "nombre": "Flan",
+                    "precio": 1400
+                },
+                {
+                    "ID": 138,
+                    "nombre": "Helado",
+                    "precio": 1000
+                },
+                {
+                    "ID": 139,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        }
+    ],
+    "cartaBar3": [
+        {
+            "categoria": "Bebidas",
+            "productos": [
+                {
+                    "ID": 210,
+                    "nombre": "Pinta",
+                    "precio": 700
+                },
+                {
+                    "ID": 211,
+                    "nombre": "Gaseosa/agua saborizada",
+                    "precio": 400
+                },
+                {
+                    "ID": 212,
+                    "nombre": "Tragos",
+                    "precio": 900
+                },
+                {
+                    "ID": 213,
+                    "nombre": "Stella",
+                    "precio": 1300
+                },
+                {
+                    "ID": 215,
+                    "nombre": "Andres",
+                    "precio": 1500
+                },
+                {
+                    "ID": 216,
+                    "nombre": "Heineken",
+                    "precio": 1400
+                },
+                {
+                    "ID": 217,
+                    "nombre": "Patagonia",
+                    "precio": 1400
+                },
+                {
+                    "ID": 218,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Entradas",
+            "productos": [
+                {
+                    "ID": 219,
+                    "nombre": "Papas con cheddar y panceta",
+                    "precio": 1100
+                },
+                {
+                    "ID": 220,
+                    "nombre": "Rabas",
+                    "precio": 1400
+                },
+                {
+                    "ID": 221,
+                    "nombre": "Papas clásicas",
+                    "precio": 1100
+                },
+                {
+                    "ID": 222,
+                    "nombre": "Tabla de fiambres",
+                    "precio": 1800
+                },
+                {
+                    "ID": 223,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Plato principal",
+            "productos": [
+                {
+                    "ID": 230,
+                    "nombre": "Hamburguesa",
+                    "precio": 1900
+                },
+                {
+                    "ID": 231,
+                    "nombre": "Lomito",
+                    "precio": 2100
+                },
+                {
+                    "ID": 232,
+                    "nombre": "Pizzas",
+                    "precio": 1700
+                },
+                {
+                    "ID": 233,
+                    "nombre": "Plato gourmet",
+                    "precio": 2400
+                },
+                {
+                    "ID": 234,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        },
+        {
+            "categoria": "Postres",
+            "productos": [
+                {
+                    "ID": 235,
+                    "nombre": "Chocotorta",
+                    "precio": 1000
+                },
+                {
+                    "ID": 236,
+                    "nombre": "Cheesecake",
+                    "precio": 1200
+                },
+                {
+                    "ID": 237,
+                    "nombre": "Flan",
+                    "precio": 1300
+                },
+                {
+                    "ID": 238,
+                    "nombre": "Helado",
+                    "precio": 900
+                },
+                {
+                    "ID": 239,
+                    "nombre": "Ninguno",
+                    "precio": 0
+                }
+            ]
+        }
+    ]
+}
